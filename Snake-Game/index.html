@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Coding Playground</title>
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/game.css">
+</head>
+
+<body>
+
+
+    <div class="jumbotron">
+        <h1 class="display-3">Snake game !</h1>
+        <p class="lead">This is a simple hero unit, a simple snake game .</p>
+        <hr class="my-4">
+    </div>
+
+    <div class="container">
+        <div id="output" class="style0"></div>
+    </div>
+
+    <div id="display">
+
+    </div>
+
+
+
+</body>
+<script type="text/javascript" src="assets/popper.js"></script>
+<script type="text/javascript" src="assets/jquery.js"></script>
+<script type="text/javascript" src="assets/bootstrap.js"></script>
+<script type="text/javascript" src="assets/engine.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        startEngine();
+    });
+
+    $(".jumbotron").on('click', function () {
+        location.reload();
+    });
+
+
+
+</script>
+
+</html>
